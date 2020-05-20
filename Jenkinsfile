@@ -1,11 +1,11 @@
 pipeline {
-   agent any
-
-   stages {
+  agent any
+  stages {
     stage('checkout project') {
       steps {
         checkout scm
       }
     }
+
   }
 }
